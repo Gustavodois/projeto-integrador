@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+#col1 {
+    background-color: #3F5978;
+    color: white;
+  
+    text-align:center;
+    font-size: 64px;
+    
+    margin-top: 0px; /*espaçamento fora na parte de cima*/
+    margin-bottom:32px; /*espaçamento fora na parte de baixo*/
+    padding-bottom: 32px;
+    font-weight: bold; /*deixa a fonte em negrito*/
+}
+#col2 {
+    text-align: center;
+    margin-left: 39%;
+    margin-bottom: 88px;
+    padding:12px 20px;
+    width: 300px;
+}
+#col3 {
+    text-align: center;
+    margin-left: 39%;
+    padding: 12px 20px;
+    width: 300px;
+}
+#col4{
+    text-align: center;
+    margin-left: 40%;
+    padding: 12px 20px;
+    width: 300px;
+}
+.login{
+    text-align: left;
+    color: #3F5978;
+    font-weight: bold;
+}
+input {
+    padding: 12px 20px;         /* Aumenta o tamanho do campo */
+    width: 300px;               /* Define a largura */
+    border: none;               /* Remove a borda */
+    background-color:  #3F5978;;  /* Cor de fundo */
+}
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    padding: 12px 20px;         /* Aumenta o tamanho do campo */
+    width: 300px;               /* Define a largura */
+    border: none;               /* Remove a borda */
+    background-color:  #3F5978;;  /* Cor de fundo */
+}
